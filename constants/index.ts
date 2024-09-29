@@ -84,15 +84,23 @@ export const Skill_data = [
     {
       name: "Github",
       src: "/gitwhite.png",
+      href: "https://github.com/ShakishnaviM"
       
     },
     {
       name: "LinkedIn",
       src: "/ln.png",
+      href:"https://www.linkedin.com/in/shakishnavi-murugan-717bb5286/"
     },
     {
       name: "Email",
       src: "/email.jpg",
+      href: "mailto:shakishnavi27@gmail.com"
+    },
+    {
+      name: "Medium",
+      src: "/medium.jpg",
+      href: "https://medium.com/@shakishnavi27"
     },
   ];
   

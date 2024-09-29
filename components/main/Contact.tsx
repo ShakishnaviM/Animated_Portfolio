@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { RxGithubLogo, RxLinkedinLogo, RxBookmark } from "react-icons/rx";
+import { RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
 
 
 const Footer = () => {
@@ -36,7 +36,7 @@ const Footer = () => {
                 window.open("https://medium.com/@shakishnavi27", "_blank");
               }}
             className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxBookmark/>
+              <img src="/medium.jpg" alt="medium" height={20} width={30}/>
               <span className="text-[15px] ml-[6px]">Medium</span>
             </p>
           </div>
