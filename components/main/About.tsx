@@ -28,19 +28,19 @@ const TAB_DATA: {
 } = {
   education: [
     {
-      year: "2022 - Present",
+      year: "2022 | Present",
       institution: "Sabaragamuwa University of Sri Lanka",
       details: "B.Sc. (Hons) in Computing and Information Systems",
       GPA: "Current GPA - 3.63",
     },
     {
-      year: "2020",
+      year: "2018 | 2020",
       institution: "Ramanathan Hindu Ladies College, Colombo-04",
       details: "G.C.E Advanced Level",
-      GPA: "Combined Mathematics - A, Physics - C, Chemistry - C. (Z-Score - 1.1)",
+      GPA: "Combined Mathematics - A, Physics - C, Chemistry - C",
     },
     {
-      year: "2017",
+      year: "2016 | 2017",
       institution: "St Anne's Girls Maha Vidyalaya",
       details: "G.C.E Ordinary Level",
       GPA: "8A's and 1B",
@@ -92,10 +92,7 @@ const AboutMe = () => {
         About Me
       </h1>
 
-      <div className="h-full md:max-w-[65%] md:ml-50 w-full text-left flex md:flex-row flex-col md:justify-start gap-10 items-center">
-        {/* Image */}
-        
-
+      <div className="h-full md:max-w-[80%] md:ml-50 w-full text-left flex md:flex-row flex-col md:justify-start gap-10 items-center">
         {/* Tabs and Content */}
         <div className="flex flex-col md:m-auto w-full m-auto justify-center md:justify-start">
           {/* Tab buttons */}
